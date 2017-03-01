@@ -41,7 +41,8 @@ public class Main {
     public static String getUserInputs(){
         String passwd;
         Scanner reader = new Scanner(System.in);  // Reading from System.in
-        System.out.println("||| Avaiable Projects |||\n");
+        System.out.println("\n\n====== TESTLINK REPORTER ======\n\n");
+        System.out.println("||| Available Projects |||\n");
         System.out.println("1 - [C5] WSO2  Identity Access Management");
         System.out.print("\nPlease Enter the ID of your Project : ");
         int projectSelection = Integer.parseInt(reader.nextLine());
